@@ -1,0 +1,3 @@
+@for(product of products(); track product) {
+<app-product-card [product]="product" (buy)="buy($event)" />
+}
